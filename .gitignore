@@ -1,3 +1,4 @@
 target/
 .idea
 vaadin-jsp-integration-example.iml
+src/main/resources/rebel.xml
