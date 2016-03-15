@@ -40,14 +40,8 @@ public class ExampleVaadinUI extends UI {
 }
 ```
 
- * Compile the widgetset. If you are using Maven, run the following:
- 
-```
-mvn vaadin:compile
-````
-
- * Add a GWT module definition file. For example, you can add the file [ExampleVaadinUIWidgetset.gwt.xml](/src/main/resources/com/example/ui/ExampleVaadinUiWidgetset.gwt.xml) in the src/main/resources/com/example/ui directory.
- * Annotate the Vaadin UI implementation class with @Widgetset and the appropriate widgetset name. For example:
+ * Add a GWT module definition file. For example, you can add the file [ExampleVaadinUIWidgetset.gwt.xml](/src/main/resources/com/example/ui/ExampleVaadinUiWidgetset.gwt.xml) in the `src/main/resources/com/example/ui` directory.
+ * Annotate the Vaadin UI implementation class with `@Widgetset` and the appropriate widgetset name. For example:
 
 ```
 ...
@@ -57,7 +51,13 @@ public class ExampleVaadinUI extends UI {
 }
 ```
 
- * Deploy the application and check that you can see the Vaadin UI. Remember to add the correct url according to what you configured as urlMappings in the VaadinServlet. For the previous example, it could be something like <http://localhost:8080/example-ui>.
+ * Compile the widgetset. If you are using Maven, run the following:
+ 
+```
+mvn vaadin:compile
+````
+
+ * Deploy the application and check that you can see the Vaadin UI. Remember to add the correct url according to what you configured as `urlMappings` in the `VaadinServlet`. For the previous example, it could be something like <http://localhost:8080/example-ui>.
 
 **3. Add the Vaadin application into the JSP page:**
 
