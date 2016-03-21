@@ -66,10 +66,9 @@ mvn vaadin:compile
 ```
 <div id="example-vaadin-ui" class="v-app valo example-vaadin-ui" style="height: 320px">
     <div class="v-app-loading"></div>
-        <noscript>
-            You have to enable javascript in your browser to use an application built with Vaadin.
-        </noscript>
-    </div>
+    <noscript>
+        You have to enable javascript in your browser to use an application built with Vaadin.
+    </noscript>
 </div>
 ```
 
