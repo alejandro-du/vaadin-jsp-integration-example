@@ -1,4 +1,7 @@
 # vaadin-jsp-integration-example
+
+## Check [this add-on](https://vaadin.com/directory#!addon/jsp-integration) to automate the rendering of Vaadin UIs in JSP files.
+
 This example shows how to add a Vaadin UI into a JSP page.
 
 ![Alt text](/screenshot.png?raw=true "Screenshot")
